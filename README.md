@@ -10,7 +10,7 @@
 
 ## Running 
  * Change movie name in the globals glb.py
-    ```
+ *  ```
 	 python predictor/sample.py 
     ```
 
