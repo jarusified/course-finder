@@ -1,22 +1,23 @@
-## Predicting sucess of movie.
+# Predicting sucess of movie.
 
-# Requirements
+## Requirements
  * Install tmdb [tmdbsimple]( https://pypi.python.org/pypi/tmdbsimple ) 
  * export TMDB_API="API_KEY"
 
 
-# Features 
+## Features 
  * Check features.txt.
 
-# Running 
+## Running 
  * Change movie name in the globals glb.py
-    ``` python predictor/sample.py 
+    ```
+	 python predictor/sample.py 
     ```
 
-# Output
+## Output
  * Fetches ids of director,producer and actors in the movie.
 
-# To Do :
+## To Do :
  * Fetch movie budget,revenue of this movie.
  * Fetch the average budgets,revenue,rating of previous movies by this director,producer,actor.
  * Adjust all cost factors by including in inflation factor.
