@@ -2,7 +2,7 @@ import tmdbsimple as tmdb
 from glb import *
 from functions import *
 
-tmdb.API_KEY=APIKEY
+tmdb.API_KEY=API_KEY
 
 movieInfo=movieSearch(MOVIENAME)
 genre=movieInfo['genres']
